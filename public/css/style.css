@@ -1,0 +1,17 @@
+/* Small custom styles on top of Bootstrap */
+body {
+  background-color: #f8f9fa;
+}
+
+.book-img {
+  height: 220px;
+  object-fit: cover;      /* keeps image nicely cropped */
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);   /* small lift effect on hover */
+}

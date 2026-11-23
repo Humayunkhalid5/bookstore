@@ -1,0 +1,28 @@
+{
+  "info": {
+    "name": "Online Bookstore API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET all books",
+      "request": { "method": "GET", "url": "http://localhost:3000/books" }
+    },
+    {
+      "name": "POST add book",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"Deep Work\",\n  \"author\": \"Cal Newport\",\n  \"price\": 20,\n  \"category\": \"Self-Help\",\n  \"image\": \"\"\n}"
+        },
+        "url": "http://localhost:3000/books"
+      }
+    },
+    {
+      "name": "DELETE book by id",
+      "request": { "method": "DELETE", "url": "http://localhost:3000/books/1" }
+    }
+  ]
+}

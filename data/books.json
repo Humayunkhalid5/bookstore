@@ -1,0 +1,6 @@
+[
+  { "id": 1, "title": "Atomic Habits", "author": "James Clear", "price": 15, "category": "Self-Help", "image": "" },
+  { "id": 2, "title": "The Alchemist", "author": "Paulo Coelho", "price": 10, "category": "Fiction", "image": "" },
+  { "id": 3, "title": "Clean Code", "author": "Robert C. Martin", "price": 30, "category": "Technology", "image": "" },
+  { "id": 4, "title": "Sapiens", "author": "Yuval Noah Harari", "price": 18, "category": "History", "image": "" }
+]
